@@ -1,2 +1,2 @@
 # CODSOFT-task2
-Simple Calculator. using flask,hlml,css,python
+Simple Calculator. #flask #hlml #css #python
