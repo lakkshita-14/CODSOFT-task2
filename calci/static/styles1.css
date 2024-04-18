@@ -1,0 +1,35 @@
+body{
+    background-image: url('https://img.freepik.com/free-photo/2d-graphic-colorful-wallpaper-with-grainy-gradients_23-2151001566.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    
+}
+.result-container {
+     text-align: center;
+    margin-top: 20px; 
+    height: 100vh;
+    font-size: 70px;
+}
+
+.result {
+    font-size: 50px;
+    color: #272626;
+    animation: fadein 7s; 
+}
+
+@keyframes fadein {
+    from { opacity: 0; } 
+    to   { opacity: 1; } 
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    color: #4caf50;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
